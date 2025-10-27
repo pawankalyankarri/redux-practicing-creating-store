@@ -1,11 +1,9 @@
-
-import './App.css'
-
+import "./App.css";
+import CounterTest from "./CounterTest";
 function App() {
-
-  return (
-   <div></div>
-  )
+  return <div>
+    <CounterTest/>
+  </div>;
 }
 
-export default App
+export default App;
